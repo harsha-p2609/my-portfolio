@@ -99,22 +99,22 @@ function Techstack() {
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
-        <img src={CPP} fontSize={"24px"} />
+        <img src={CPP} fontSize={"24px"} alt="cpp"/>
         <div className="tech-icons-text">C++</div>
       </Col> 
 
       <Col xs={4} md={2} className="tech-icons">
-        <img src={Java} fontSize={"24px"} />
+        <img src={Java} fontSize={"24px"} alt="Java"/>
         <div className="tech-icons-text">Java</div>
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
-        <img src={spring} fontSize={"24px"} className="icon-logo"/>
+        <img src={spring} fontSize={"24px"} className="icon-logo" alt="spring boot"/>
         <div className="tech-icons-text">spring boot</div>
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
-        <img src={Postman} fontSize={"24px"}/>
+        <img src={Postman} fontSize={"24px"} alt={Postman}/>
         <div className="tech-icons-text">Postman</div>
       </Col>
 
