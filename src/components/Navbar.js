@@ -38,7 +38,10 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <span className="brand">HarshaDeep</span>
+          <span className="brand">Harsha.
+            <span className="wave" role="img" aria-labelledby="wave">🧑‍💻</span>
+            </span>
+  
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -88,6 +91,17 @@ function NavBar() {
                 onClick={() => updateExpanded(false)}
               >
                 <HiOutlineBriefcase style={{ marginBottom: "2px" }} /> Experience
+
+              </Nav.Link>
+            </Nav.Item>
+
+                        <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/education"
+                onClick={() => updateExpanded(false)}
+              >
+                <HiOutlineBriefcase style={{ marginBottom: "2px" }} /> Education
 
               </Nav.Link>
             </Nav.Item>

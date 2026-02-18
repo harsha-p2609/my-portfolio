@@ -166,7 +166,7 @@ button:focus {
 
 /* Brand text (cursive) */
 .brand {
-  font-family: 'Great Vibes', cursive;
+
   font-size: 2.2rem;
   font-weight: 700;
   color: var(--imp-text-color);
@@ -825,5 +825,9 @@ button:focus {
   100% {
     background-position: -200% 0;
   }
+}
+.icon-logo{
+  height: 1.6rem;
+  line-height: 1.6 !important;
 }
 
