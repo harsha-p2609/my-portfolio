@@ -38,7 +38,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <span className="brand">Harsha.
+          <span className="brand">{"<HARSHA/>"}
             <span className="wave" role="img" aria-labelledby="wave">🧑‍💻</span>
             </span>
   
