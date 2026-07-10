@@ -9,9 +9,14 @@ function ProjectCards(props) {
       {props.imgPath && <Card.Img variant="top" src={props.imgPath} alt="card-img"  className="project-img-logo"/>}
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
-        <Card.Text style={{ textAlign: "justify" }}>
-          {props.description}
-        </Card.Text>
+<Card.Text
+  style={{
+    textAlign: "left",
+    lineHeight: "1.7",
+  }}
+>
+  {props.description}
+</Card.Text>
 
         {"\n"}
         {"\n"}
