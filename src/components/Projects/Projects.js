@@ -65,10 +65,6 @@ function Projects() {
             Developed analytics dashboards, budget tracking, packing checklist
             management, PDF export, and public itinerary sharing features.
           </li>
-          <li>
-            Built using <strong>Next.js, Node.js, Express.js, MongoDB,
-            Google OAuth, JWT, and REST APIs</strong>.
-          </li>
         </ul>
       </>
     }
