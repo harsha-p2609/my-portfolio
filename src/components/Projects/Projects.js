@@ -9,8 +9,8 @@ import nxtrendz from "../../Assets/Projects/nxtrendz.png";
 import nxtwatch from "../../Assets/Projects/nxtwatch.jpg";
 
 import chatapp from "../../Assets/Projects/chatapp.png";
+import aiplanner from "../../Assets/Projects/aiPlanner.png"
 
-import smartBookmarkApp from "../../Assets/Projects/smartBookmarkApp.png";
 
 
 function Projects() {
@@ -26,6 +26,55 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+
+
+{/* AI-Powered Travel Planner SaaS */}
+
+<Col md={4} className="project-card">
+  <ProjectCard
+    imgPath={aiplanner}
+    isBlog={false}
+    title={
+      <span
+        className="purple auto-underline mb-3"
+        style={{ fontWeight: "700", fontSize: "1.6rem" }}
+      >
+        AI-Powered Travel Planner SaaS
+      </span>
+    }
+    description={
+      <>
+        <ul>
+          <li>
+            Built a full-stack SaaS application that generates personalized
+            travel itineraries based on destination, trip duration, budget, and
+            traveler preferences.
+          </li>
+          <li>
+            Designed and developed RESTful APIs for trip creation, itinerary
+            management, weather forecasting, hotel recommendations, and
+            AI-powered travel assistance.
+          </li>
+          <li>
+            Implemented JWT authentication, Google OAuth login, and
+            user-specific data isolation using MongoDB for secure access
+            control.
+          </li>
+          <li>
+            Developed analytics dashboards, budget tracking, packing checklist
+            management, PDF export, and public itinerary sharing features.
+          </li>
+          <li>
+            Built using <strong>Next.js, Node.js, Express.js, MongoDB,
+            Google OAuth, JWT, and REST APIs</strong>.
+          </li>
+        </ul>
+      </>
+    }
+    demoLink="https://trao-ai-travel-planner.vercel.app/"
+  />
+</Col>
 
 
 
@@ -151,36 +200,7 @@ function Projects() {
   </Col>
 
 
-  {/* smart BookMark App */}
 
-<Col md={4} className="project-card">
-  <ProjectCard
-   imgPath={smartBookmarkApp}
-    isBlog={false}
-    title={
-  <span className="purple auto-underline mb-3" style={{ fontWeight:"700" , fontSize: "1.6rem" }}>
-   Smart Bookmark App
-  </span>
-}
-
-
-    
-    description={
-      <>
-        <ul>
-            <li>Built a Smart Bookmark app using Next.js App Router and Supabase.</li>
-            <li>Implemented secure Google OAuth authentication with user session management.</li>
-            <li>Ensured user-specific data privacy by filtering bookmarks using user_id and enabling Row Level Security.</li>
-            <li>Developed real-time bookmark updates using Supabase postgres_changes subscriptions.</li>
-            <li>Added URL validation, loading states, and responsive UI using Tailwind CSS.</li>
-            <li>Deployed the application on Vercel with secure environment variable configuration.</li>
-
-        </ul>
-      </>
-    }
-    demoLink="https://smart-bookmark-app-lac-psi.vercel.app/"
-  />
-</Col>
         </Row>
         </Container>
       </Container>
